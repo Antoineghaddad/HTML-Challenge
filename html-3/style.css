@@ -13,45 +13,47 @@ img{
 }
 
 body{
-    background-color: #1b2022;
+    background-color: rgb(33, 43, 45);
 }
 
 h2{
     position: absolute;
-    color:#97b0c0;
-    top:35%;
+    color:	#b6d3d7;
+    top:30%;
     left:19%;
     z-index: 1;
     font-weight: bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 
 }
 
 h3{
     position: absolute;
-    color:#97b0c0;
+    color:	#99bac1;
     top:45%;
     left:19%;
     z-index: 1;
     font-size:15px;
     font-weight: 100;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 nav{
-    border: 1px #28282b solid;
+    border: 1px  rgb(50, 60, 62) solid;
     text-align:center;
     display:flex;
-    width:1070px;
+    width:80%;
     margin-left:133px;
     flex-direction: row;
     justify-content: space-evenly;
-    background-color:#28282b;
+    background-color:rgb(50, 60, 62);
 }
 
 nav a{
     margin-top:20px;
     padding-bottom:20px;
     text-decoration: none;
-    color:#97b0c0;
+    color:	#acb4b6;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size:14px;
     font-weight: bold;
@@ -62,18 +64,19 @@ nav a{
 nav a:hover{
     
 color:white;
-   
+
+
 }
 
 nav p{
-    color:gray;
+    color:	#96a8ac;
     opacity:0.4;
 }
 
 ul li a{
     color:white;
     line-height: 1.5;
-    color:#97b0c0;
+    color:	#96a8ac;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size:15px;   
 }
@@ -84,9 +87,9 @@ ul li a:hover{
 ul{
     color:white;
    margin-left:120px;
-   color:#97b0c0;
+   color:#96a8ac;
    
-  
+   
  
    
  
@@ -94,7 +97,7 @@ ul{
 /*main css below*/
 .main{
 font-size:20px;
-    color:#97b0c0;
+    color:	#96a8ac;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-weight: bold;
 
@@ -108,6 +111,8 @@ font-size:20px;
 
 hr{
     width:720px;
+    color:#96a8ac;
+    opacity:0.7;
     
 }
 
@@ -117,24 +122,24 @@ hr{
     line-height: 2;
     font-size:13px;
     margin-top:12px;
-    color:#97b0c0;
+    color:	#96a8ac;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .gallery .title{
     font-size: 20px;
-    color:#97b0c0;
+    color:	#96a8ac;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-weight: bold;
 }
 
 .block1{
-    color:#97b0c0;
+    color:#96a8ac;
 }
 
 .block0 .title{
     font-size:20px;
-    color:#97b0c0;
+    color:	#96a8ac;
     margin-bottom:10px;
     font-weight: bold;
 }
@@ -149,25 +154,25 @@ hr{
     line-height: 1.7 ;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size:13px;
-    margin-top:30px;
+    margin-top:50px;
 }
 
 .subscription{
-    color:#97b0c0;
+    color:	#96a8ac;
     font-size:13px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     padding-right:80px;
-    line-height: 1.5;
+    line-height: 1.8;
    
 
 }
 
 .others{
     font-size:13px;
-    color:#97b0c0;
+    color:	#96a8ac;
     margin-left:30px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    line-height: 1.5;
+    line-height: 1.8;
 }
 
 .container3{
@@ -177,33 +182,33 @@ hr{
 
 .subscription .title{
     font-size:20px;
-    color:#97b0c0;
+    color:	#96a8ac;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-weight: bold;
 }
 
 .others .title{
     font-size: 20px;
-    color:#97b0c0;
+    color:	#96a8ac;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-weight: bold;
 }
 
 .vl{
-    border-right: 1px #97b0c0 inset;
+    border-right: 1px#96a8ac inset;
     opacity:0.2;
     height:250px;
     margin-top:20px;
     
 }
 .subscription a{
-    border:1px #97b0c0 solid;
+    border:1px 	#96a8ac solid;
     padding-left:12px;
     padding-right:12px;
     padding-top:7px;
     padding-bottom:7px;
-    background-color:#97b0c0;
-    color:#1b2022;
+    background-color:#96a8ac;
+    color:rgb(33, 43, 45);
     text-decoration: none;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     margin-top:20px;
@@ -211,18 +216,18 @@ hr{
     
 }
 .subscription a:hover{
-    background-color:#1b2022;
-    color:#97b0c0;
+    background-color:rgb(33, 43, 45);
+    color:#96a8ac;
 }
 
 .others a{
-    border:1px #97b0c0 solid;
+    border:1px 	#96a8ac solid;
     padding-left:12px;
     padding-right:12px;
     padding-top:7px;
     padding-bottom:7px;
-    background-color:#97b0c0;
-    color:#1b2022;
+    background-color:	#96a8ac;
+    color:rgb(33, 43, 45);
     text-decoration: none;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     margin-top:20px;
@@ -230,23 +235,24 @@ hr{
     
 }
 .others a:hover{
-    background-color:#1b2022;
-    color:#97b0c0;
+    background-color:rgb(33, 43, 45);
+    color:#96a8ac;
 }
 
 
 
 .horiz{
-    width:1070px;
+    width:80%;
     margin-top:50px;
     opacity:0.2;
+    color:#96a8ac;
 }
 /*footer css below */
 .form{
     display:flex;
     flex-direction: column;
     
-    color:#97b0c0;
+    color:#96a8ac;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-align: center;
     
@@ -272,27 +278,34 @@ textarea{
   
   footer h1{
       text-align: center;
-      color:#97b0c0;
+      color:#96a8ac;
       font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
   }
   footer button{
-      border:1px #97b0c0 solid;
+      border:1px #96a8ac solid;
       width:462px;
       margin-left:435px;
       height:50px;
       font-weight: bold;
-      background-color:#97b0c0;
+      background-color:#96a8ac;
       margin-top:20px;
       
       
   }
-  footer button a{
-     text-decoration: none;
-     color:#1b2022;
-  }
 
+  footer button a{
+    text-decoration: none;
+    color:rgb(33, 43, 45);
+    
+ }
+
+  footer button:hover{
+      background-color: rgb(50, 60, 62);
+      border:1px  rgb(50, 60, 62) solid;
+      
+  }
   .copyright{
-      color:#97b0c0;
+      color:#96a8ac;
       text-align: center;
       font-size:13px;
       font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
@@ -305,4 +318,8 @@ textarea{
       opacity:0.2;
      
   }
+
+footer legend h1{
+    text-align: center;
+}
 
